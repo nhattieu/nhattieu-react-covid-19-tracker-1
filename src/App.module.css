@@ -1,0 +1,20 @@
+body {
+    background-color: rgba(240, 240, 240)
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.logo {
+    width:5%;
+}
+
+@media (max-width:990px) {
+    .logo {
+        width:20%;
+    }
+}
